@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { UpdateComponent } from './heroes/new/update/update.component';
+import { RoutesComponent } from './heroes/new/routes/routes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    UpdateComponent
+    UpdateComponent,
+    RoutesComponent
   ],
   imports: [
     BrowserModule,
